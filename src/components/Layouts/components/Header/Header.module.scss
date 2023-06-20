@@ -1,7 +1,10 @@
 .wrapper {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     height: var(--default-header-hight, 60px);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
 }
